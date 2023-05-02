@@ -46,6 +46,9 @@ img {
     width: 500px;
 }
 
+li {
+    color: white;
+}
 .section1 {
     display: flex;
     justify-content: space-between;
@@ -54,5 +57,16 @@ img {
 .section1-left {
     display: flex;
     flex-direction: column;
+    width: 500px;
+    gap: 15px;
 
+}
+
+.section1-left-txt1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.section1-left-txt2 {
+    opacity: 0.5;
 }
