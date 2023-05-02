@@ -4,15 +4,17 @@ body  {
     margin: 0px;
 
 }
-
+/*Start of Header */
 .background1 {
     background-color: #1f2937;
     padding-left: 150px;
     padding-right: 150px;
+    padding-bottom: 150px;
 }
 
 .header-container {
     background-color: #1f2937;
+    padding-bottom: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,7 +24,7 @@ body  {
 }
 
 .header-left {
-    font-size: 30px;
+    font-size: 24px;
     
 }
 
@@ -37,4 +39,20 @@ body  {
 a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: white;
+}
+/* Starting Section 2 */
+img {
+    height: 250px;
+    width: 500px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1-left {
+    display: flex;
+    flex-direction: column;
+
 }
