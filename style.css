@@ -15,10 +15,26 @@ body  {
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    gap: 20px
+    align-items: center;
+    gap: 30px
+
 
 }
 
-a {
+.header-left {
+    font-size: 30px;
+    
+}
+
+.header-right {
+    display: flex;
+    font-size: 18px;
+    gap:20px;
+    opacity: 0.5;
+}
+
+
+a, a:hover, a:focus, a:active {
     text-decoration: none;
+    color: white;
 }
