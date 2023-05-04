@@ -2,18 +2,16 @@ body  {
     display: flex;
     flex-direction: column;
     margin: 0px;
-
+    background-color: #1f2937;
 }
 /*Start of Header */
 .background1 {
-    background-color: #1f2937;
     padding-left: 150px;
     padding-right: 150px;
     padding-bottom: 150px;
 }
 
 .header-container {
-    background-color: #1f2937;
     height: 50px;
     padding-bottom: 100px;
     display: flex;
@@ -41,10 +39,12 @@ a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: white;
 }
-/* Starting Section 2 */
+/* Starting Section 1 */
+
 img {
     height: 250px;
     width: 500px;
+    border-radius: 10px;
 }
 
 li {
@@ -84,6 +84,15 @@ button {
 }
 
 /* section 2 starts here */
+.background2 {
+    background-color: white;
+}
+.section2 {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .section2 h1 {
     text-align: center;
 
@@ -96,4 +105,35 @@ button {
 .section2imgs img {
     height: 150px;
     width: 150px;
+    border-radius: 10px;
+}
+/* final section */
+
+.background3 {
+    background-color: #1f2937;
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctacontainer {
+    height: 150px;
+    width: 600px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.ctacontainer h1{
+    font-size: 18px;
+    text-align: start;
+}
+.ctacontainer button {
+    border-color: white;
+    border-radius: 10px;
 }
