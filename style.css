@@ -82,3 +82,18 @@ button {
 .section1-left-txt2 {
     opacity: 0.5;
 }
+
+/* section 2 starts here */
+.section2 h1 {
+    text-align: center;
+
+}
+.section2imgs {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.section2imgs img {
+    height: 150px;
+    width: 150px;
+}
